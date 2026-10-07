@@ -1,0 +1,9 @@
+{
+  "name": "codegraph",
+  "description": "CodeGraph MCP server for a pre-indexed, local code knowledge graph (codegraph_explore). Wraps the upstream MCP config (no hooks). Requires the codegraph CLI and codegraph init per project.",
+  "version": "1.6.2",
+  "author": { "name": "Marinski", "url": "https://github.com/Marinski" },
+  "homepage": "https://github.com/colbymchenry/codegraph",
+  "repository": "https://github.com/Marinski/graph-plugins",
+  "license": "MIT"
+}

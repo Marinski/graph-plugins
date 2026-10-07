@@ -1,0 +1,13 @@
+{
+  "graphify": {
+    "repo": "https://github.com/Graphify-Labs/graphify.git",
+    "ref": "v0.9.79",
+    "sha": "f765dcb3415d60fcfce390868da49e77894f2dc2"
+  },
+  "codegraph": {
+    "repo": "https://github.com/colbymchenry/codegraph.git",
+    "ref": "main",
+    "sha": "ed199e60d8f1aed5baf73836366ef0a6f7838d11",
+    "version": "1.6.2"
+  }
+}

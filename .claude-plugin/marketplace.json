@@ -1,0 +1,26 @@
+{
+  "name": "graph-plugins",
+  "owner": {
+    "name": "Marinski",
+    "url": "https://github.com/Marinski"
+  },
+  "description": "Claude Code plugin wrappers for code knowledge-graph tools (graphify, CodeGraph). Each wrapper ships the upstream skill or MCP config without hooks, so Claude Desktop can copy it to SSH hosts. The upstream CLI must be installed on every machine.",
+  "plugins": [
+    {
+      "name": "graphify",
+      "source": "./plugins/graphify",
+      "description": "Turn a codebase, docs, papers, images or videos into a queryable knowledge graph (graph.html, graph.json, GRAPH_REPORT.md) with /graphify, plus query/path/explain tools. Wraps the upstream graphify skill without its PreToolUse hooks. Requires the graphifyy Python package (uv tool install graphifyy).",
+      "license": "Apache-2.0 OR MIT",
+      "category": "engineering",
+      "keywords": ["knowledge-graph", "codebase", "architecture", "tree-sitter", "graphrag", "graphify"]
+    },
+    {
+      "name": "codegraph",
+      "source": "./plugins/codegraph",
+      "description": "CodeGraph MCP server: a pre-indexed, local code knowledge graph that answers code questions in one codegraph_explore call (symbols, verbatim source, call paths). Wraps the upstream MCP config without its prompt hook. Requires the codegraph CLI (npm i -g @colbymchenry/codegraph) and codegraph init per project.",
+      "license": "MIT",
+      "category": "engineering",
+      "keywords": ["knowledge-graph", "mcp", "code-search", "call-graph", "codegraph"]
+    }
+  ]
+}

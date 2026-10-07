@@ -1,0 +1,9 @@
+{
+  "name": "graphify",
+  "description": "Turn a codebase, docs, papers, images or videos into a queryable knowledge graph with /graphify. Wraps the upstream graphify skill (no hooks). Requires the graphifyy Python package.",
+  "version": "0.9.79",
+  "author": { "name": "Marinski", "url": "https://github.com/Marinski" },
+  "homepage": "https://github.com/Graphify-Labs/graphify",
+  "repository": "https://github.com/Marinski/graph-plugins",
+  "license": "Apache-2.0 OR MIT"
+}
