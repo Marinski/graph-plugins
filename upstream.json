@@ -1,8 +1,8 @@
 {
   "graphify": {
     "repo": "https://github.com/Graphify-Labs/graphify.git",
-    "ref": "v0.9.79",
-    "sha": "f765dcb3415d60fcfce390868da49e77894f2dc2"
+    "ref": "v0.9.82",
+    "sha": "5b74d7d74911cf435c8f1636b6f96ea202cc6246"
   },
   "codegraph": {
     "repo": "https://github.com/colbymchenry/codegraph.git",
